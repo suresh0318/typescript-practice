@@ -22,12 +22,30 @@ td, th {
   text-align: left;
   padding: 8px;
 }
-button{
-margin-left: 40rem;
-  padding: 2rem;
-  margin-top: 10rem;
-  font-size: 2rem;
-}
+
 .Strings{
   margin-left: 10rem;
+}
+main {
+  text-align: center;
+  vertical-align: center;
+}
+.toasts{
+  position:absolute;
+  bottom:1rem;
+  left:30%;
+}
+#toast-bar{
+  color:white;
+  text-align:center;
+  height:3rem;
+  width:25rem;
+  border-radius:10px;
+}
+.btns{
+  display: flex;
+}
+button{
+  padding: 1rem;
+  margin: 1rem;
 }

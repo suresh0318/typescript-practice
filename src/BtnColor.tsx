@@ -12,7 +12,7 @@ function btn (){
   return (
     <div>
       <h2>color changing button</h2>
-        <button onClick={btn} style={{backgroundColor:color}}>{value}</button>
+        <button onClick={btn} style={{backgroundColor:color,padding:"3rem"}}>{value}</button>
     </div>
   )
 }
